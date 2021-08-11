@@ -60,7 +60,7 @@ int printch(char c, int col, int row, char attr){
     } 
     else{
         vidmem[offset] = c;
-        vidmem[offset+1] = attr;
+        vidmem[offset + 1] = attr;
         offset += 2;
     }
 
